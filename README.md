@@ -23,7 +23,7 @@ Another alternative is to use `virtualenv`. This is the setup we use. virtualenv
 
     $ pip install virtualenv
 
-Then create a new virtualenv in the same directory as the cloned repo. We recommend naming it `env` -- our `.gitignore` already contains an entry to ignore such a directory. If you change the name, ignore it as it will add unnecessary bloat and meaningless conflict to the repo. 
+Then create a new virtualenv in the same directory as the cloned repo. We recommend naming it `env` -- our `.gitignore` already contains an entry to ignore such a directory. If you change the name, make sure to add it to your .gitignore it as it will add unnecessary bloat and meaningless conflict to the repo. 
 
     $ virtualenv --no-site-packages --distribute env
     $ . env/bin/activate
