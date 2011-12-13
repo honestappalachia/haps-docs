@@ -12,6 +12,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
+   overview
    submission
    contact
    contribute
