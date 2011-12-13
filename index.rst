@@ -6,12 +6,15 @@
 Welcome to Honest Appalachia's documentation!
 =============================================
 
-Contents:
+Table of Contents
+-----------------
 
 .. toctree::
    :maxdepth: 2
 
+   submission
    contact
+   contribute
 
 
 
