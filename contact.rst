@@ -4,9 +4,9 @@
 Contact Us
 ==========
 
-You may contact the Honest Appalachia team through e-mail or secure chat.
+You may contact the Honest Appalachia team through email or secure chat.
 
-E-mail
+Email
 ------
 
 For non-sensitive inquiries, please use our general purpose account at
