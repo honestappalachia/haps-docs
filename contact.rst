@@ -1,8 +1,13 @@
-=======
-Contact
-=======
+.. _contact:
+
+==========
+Contact Us
+==========
 
 You may contact the Honest Appalachia team through e-mail or secure chat.
+
+E-mail
+------
 
 For non-sensitive inquiries, please use our general purpose account at
 happalachia@gmail.com.
@@ -15,5 +20,13 @@ using GPG encryption to send us email securely. Our public key fingerprint is
 
 If you want to write to us securely, but don't know what GPG is, visit our :ref:`GPGHelp` page.
 
+Chat
+----
+
 We are working on setting up a secure an anonymous chat room so we can provide
 real-time support. Stay tuned.
+
+P.O. Box
+--------
+
+If you want to send us physical documents, we're working on setting up a PO Box. Stay tuned.
