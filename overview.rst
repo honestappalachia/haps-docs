@@ -2,7 +2,7 @@
 Overview
 ========
 
-This is an overview of the Honest Appalachia secure submission system. We believe it strikes a good balance between security, ease of use, and cost effectiveness. It also enforces stricter anonymity protections than either Wikileaks or Openleaks. 
+This is an overview of the Honest Appalachia secure submission system. We believe it strikes a good balance between security, ease of use, and cost effectiveness.
 
 What does a successful upload look like?
 ----------------------------------------
