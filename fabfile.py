@@ -4,18 +4,26 @@ from fabric.contrib.console import confirm
 
 env.hosts = ['happalachia@happalachia.webfactional.com']
 
+local_html_dir = "_build/html"
+
+def build():
+    local("make html")
+    local("open %s/index.html" % local_html_dir)
+
 def commit():
-    local("git add -p && git commit")
+    # git add -p ??
+    local("git add -i && git commit")
 
 def pack():
-    local("tar czf /tmp/haps-docs.tgz .")
+    local("make html")
+    local("cd %s && tar czf /tmp/haps-docs.tgz ." % local_html_dir)
 
 def prepare_deploy():
     commit()
-    pack()
 
 def deploy():
-    sphinx_dir = '/home/happalachia/webapps/sphinx'
+    pack()
+    remote_dir = '/home/happalachia/webapps/sphinx'
     put('/tmp/haps-docs.tgz', '/tmp/')
-    with cd(sphinx_dir):
+    with cd(remote_dir):
         run('tar xzf /tmp/haps-docs.tgz')
