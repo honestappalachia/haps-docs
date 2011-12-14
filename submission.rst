@@ -1,8 +1,8 @@
 .. _submission:
 
-==========
-Submission
-==========
+================
+Submission Guide
+================
 
 Are you a whistleblower interested in submitting documents to Honest Appalachia? This document will guide you through submitting a file to our secure upload site.
 
