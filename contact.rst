@@ -20,6 +20,14 @@ using GPG encryption to send us email securely. Our public key fingerprint is
 
 If you want to write to us securely, but don't know what GPG is, visit our :ref:`GPGHelp` page.
 
+Mailing List
+------------
+
+We are working on setting up a mailing list to discuss the project. If you're interested in joining the mailing list, you can subscribe here: *to be determined*
+
+..  warning::
+    This is a public mailing list meant for discussing the project, asking for support, and fostering collaboration. **Do not** discuss any information related to specific documents or whistleblower cases on this list. We encourage you to read our guide on :ref:`secure-email` and consider using a dedicated account to subscribe to the list.
+
 Chat
 ----
 
