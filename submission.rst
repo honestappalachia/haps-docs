@@ -11,6 +11,10 @@ You will need:
 1.  A file or files to share with us
 2.  A computer with internet access that you can install software on. Any common platform (Windows, Mac, Linux...) will work.
 
+We recommend *not* making submissions or even accessing this site over corporate or organizational networks. Your network traffic is almost certainly being recored, and if it is not being actively analyzed, it will be once leaked documents appear. Furthermore, many such networks block or ban the use of anonymization software like Tor, which is required to access our secure upload server.
+
+Instead, copy the files to a flash drive or CD-ROM and upload them from there to our website, using a personal or public computer. You will need to install software, so it is likely that many publicly available computers (at libraries or internet cafes, for example) will not be suitable either. Use your own computer, or borrow a friend's. Using a laptop on a public wifi network, like those provided by libraries or coffee shops, is a good idea as long as you use secure connections, and especially if you use anonymization software like Tor. 
+
 The secure submission process and this guide to it are designed to be easy to use no matter your technical skill level! If, however, you run into problems, feel free to :ref:`contact`.
 
 Prepare the Files
@@ -89,4 +93,20 @@ When you're done, click the "Upload" button. The file and comment will be upload
 Cleanup
 -------
 
-Add section about secure deletion?
+After you've successfully uploaded your files to our secure server, you're almost done! We will receive your files, remove any metadata we find, and share them with journalists and/or the public.
+
+Your last step should be covering your tracks. At this point, the worst thing that could happen is the police using a search warrant to seize your computer equipment. Finding confidential files that may or not may have official access to, especially if those files were just leaked by a website, would be suspicious. Software like Tor, although legal, might also be considered suspicious.
+
+Securely Delete Files
+^^^^^^^^^^^^^^^^^^^^^
+
+If you stored your files on an erasable medium, like a hard drive or a flash drive, you will not be safe if you just drag those files to the Trash/Recycle Bin and empty it, or just rm them on a Linux system. That's because on most modern computer systems, when you "delete" a file, you really haven't. Instead, the operating system makes the file invisible and marks the part of the drive it is stored on as "empty", meaning other files can now be written over. This design is what allows people to recover accidentally deleted files - but computer forensics teams working for law enforcement can use these same techniques to work against you, recovering files that may then be used as evidence.
+
+Your best bet is to securely delete these files. Link to SSD page, which has info for Windows, Mac, and Linux, or write about all of it here?
+
+Destroy Physical Media
+^^^^^^^^^^^^^^^^^^^^^^
+
+If the media you copied files with is *not* rewritable - for example, a CD-ROM - you will need to physically destroy it. You can do the same thing you do with paper - shred 'em, and throw 'em away. There are inexpensive shredders that will chew up CD-ROMs. Never just toss a CD-ROM out in the garbage unless you're absolutely sure there's nothing sensitive on it. (last bit copied wholesale from SSD)
+
+
