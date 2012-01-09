@@ -62,7 +62,7 @@ First, download the browser bundle from the Tor Project's site: https://www.torp
 
     1.  `Windows <https://www.torproject.org/projects/torbrowser.html.en#Windows>`_
     2.  `Mac OS X <https://www.torproject.org/projects/torbrowser.html.en#MacOSX>`_
-    3.  `Linux` <https://www.torproject.org/projects/torbrowser.html.en#Linux>`_
+    3.  `Linux <https://www.torproject.org/projects/torbrowser.html.en#Linux>`_
 
 Double-click on this file. It will launch an application called Vidalia, which is a graphical frontend to the Tor software. Vidalia will automatically try to connect to the Tor network.
 
