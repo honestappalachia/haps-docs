@@ -10,18 +10,22 @@ Email
 ------
 
 For non-sensitive inquiries, please use our general purpose account at
-happalachia@gmail.com.
+honestappalachia@gmail.com.
 
 For sensitive inquiries, including potential whistleblowers concerned with
 protecting their identities, use honestappalachia@riseup.net. We *highly recommend*
-using GPG encryption to send us email securely. Download our public key.
+using GPG encryption to send us email securely. `Download our public key </honestappalachia@riseup.net(0xDC3784C2).pub.asc>`_.
 
-If you want to write to us securely, but don't know what GPG is, visit our :ref:`GPGHelp` page.
+If you want to write to us securely, but don't know what GPG is, visit our :ref:`secure-email` page.
 
 P.O. Box
 --------
 
-If you want to send us physical documents, we're publishing the address of our PO Box on our launch tomorrow.
+**Charleston, WV:**
+
+| Honest Appalachia
+| P.O. Box 11776
+| Charleston, WV 25339
 
 Coming Soon
 -----------
@@ -29,7 +33,7 @@ Coming Soon
 Mailing List
 ++++++++++++
 
-We are working on setting up a mailing list to discuss the project. If you're interested in joining the mailing list, you can subscribe here: *to be determined*
+We are working on setting up a mailing list to discuss the project.
 
 ..  warning::
     This is a public mailing list meant for discussing the project, asking for support, and fostering collaboration. **Do not** discuss any information related to specific documents or whistleblower cases on this list. We encourage you to read our guide on :ref:`secure-email` and consider using a dedicated account to subscribe to the list.
