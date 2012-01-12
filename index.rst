@@ -5,7 +5,7 @@ Welcome to Honest Appalachia's documentation!
     :align: center 
 
 ..  note::
-    This website and documentation are under development.
+    This documentation is under development.
 
 Honest Appalachia is a secure website that will allow whistleblowers to safely share corporate and government documents with journalists and the public.
 
