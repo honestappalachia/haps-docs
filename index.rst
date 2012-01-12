@@ -4,7 +4,7 @@ Welcome to Honest Appalachia's documentation!
 ..  image:: images/logo_small.png
     :align: center 
 
-..  warning::
+..  note::
     This website and documentation are under development.
 
 Honest Appalachia is a secure website that will allow whistleblowers to safely share corporate and government documents with journalists and the public.
@@ -12,7 +12,7 @@ Honest Appalachia is a secure website that will allow whistleblowers to safely s
 Quick Links
 -----------
 
-Are you interested in submitting documents to us? Read the :ref:`submission` first.
+Are you interested in submitting documents to us? Read the :ref:`online-submission` first.
 
 Do you want to learn more about secure communication as an activist? Check out our guide to :ref:`secure-email`.
 
@@ -24,7 +24,8 @@ Honest Appalachia
     :maxdepth: 3
 
     overview
-    submission
+    online-submission
+    postal-submission
     contribute
     contact
 
@@ -36,3 +37,10 @@ Secure Communication for Activists
 
    secure-email
 
+Acknowledgments
+---------------
+
+The information in this documentation has been derived from thorough research and our own experience protecting ourselves online. We would like to acknowledge some of our key sources here:
+
+1.  `The Electronic Frontier Foundation's (EFF) Security Self-Defense (SSD) Project <https://ssd.eff.org>`_
+2.  `Riseup <https://help.riseup.net/en/security>`_.
