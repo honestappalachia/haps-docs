@@ -12,3 +12,6 @@ env
 
 # Ignore _build
 _build
+
+# Don't store public key
+honestappalachia@riseup.net(0xDC3784C2).pub.asc
