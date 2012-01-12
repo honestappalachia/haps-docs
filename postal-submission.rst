@@ -6,7 +6,7 @@ Postal Submission Guide
 
 If you are not comfortable with using the upload site, you can mail documents to one of the P.O. boxes in our secure postal network. We accept documents on digital media (USB drives, CD-ROMs) and physical documents. Submissions to our postal network offer a strong form of anonymity and are good for bulk truth-telling.
 
-The recommendations in this document are adapted from Wikileak's guidelines on postal submission.
+The recommendations in this document are adapted from `Wikileak's guidelines on postal submission <http://wikileaks.nl/submissions.html>`_.
 
 Steps
 -----
