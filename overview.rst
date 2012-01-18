@@ -5,9 +5,9 @@ Overview
 Quick Outline
 -------------
 
-Honest Appalachia allows users to upload files safely and anonymously through our secure upload site. The secure upload site is a Tor Hidden Service, a web server using a special protocol that protects the anonymity of both the client and the server.
+Honest Appalachia is designed to help users to upload files safely and anonymously through our secure upload site. The secure upload site is a Tor Hidden Service, a web server using a special protocol that protects the anonymity of both the client and the server.
 
-When the hidden service receives a file, it encrypts it and uploads it to a separate file server before securely deleting the original copy. This encrypted copy is only accessible to members of Honest Appalachia, who will retrieve these files and strip them of metadata that could potentially identify the source.
+When the hidden service receives a file, it encrypts it and uploads it to a separate file server, then securely deletes the original copy. This encrypted copy is only accessible to members of Honest Appalachia, who will retrieve these files and strip them of metadata that could potentially identify the source.
 
 Once a "cleaned" version of the uploaded file is produced, it will be distributed among our network of journalists and potentially published for the public to view on our website.
 
@@ -16,7 +16,9 @@ Design Choices
 
 This is an overview of the Honest Appalachia secure submission system. The goal is to strike a balance between security, ease of use, and cost effectiveness.
 
-Security fanatics may disagree with some of our choices in developing this system, but there is always a trade-off between convenience, cost, and security. These documents describe what we consider to be the most practical solutions, along with suggestions of additional measures that could be taken for added security if more resources were available.
+There is always a trade-off between convenience, cost, and security. These documents describe what we consider to be the most practical solutions, along with suggestions of additional measures that could be taken for added security if more resources were available.
+
+Finally, in the words of computer security expert Bruce Schneier, `"security is a process, not a product" <>`_. We cannot and do not make any guarantees about the security of our platform. We are always looking for vulnerabilities and trying to find ways to make the platform even more secure.
 
 Honest Appalachia is focused on serving the Appalachia region of the United States of America, so currently our threat model, subsequent design, and recommendations are all based on the surveillance capabilities of US government and law enforcement, and the legal rights of US citizens. Consider :ref:`contribute` if you want to support other parts of the world.
 

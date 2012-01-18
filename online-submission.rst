@@ -11,9 +11,9 @@ You will need:
 1.  A file or files to share with us
 2.  A computer with internet access that you can install software on. Any common platform (Windows, Mac, Linux...) will work.
 
-The secure submission process and this guide to it are designed to be easy to use no matter your technical skill level! If, however, you run into problems, you can :ref:`contact` for help.
+The secure submission process and this guide to it are designed to be easy to use no matter your technical skill level! If you run into problems, you can always :ref:`contact` for help.
 
-If you are not comfortable with using or unable to use the upload site, you can use our secure postal network to send us documents. Check out the :ref:`postal-submission` guide to learn how.
+If you are not comfortable with using or are unable to use the upload site, you can use our secure postal network to send us documents. Check out the :ref:`postal-submission` guide to learn how.
 
 Before you begin
 ----------------
@@ -87,13 +87,12 @@ The browser will automatically open https://check.torproject.org/, a website tha
 ..  image:: images/TorBrowserCheckMac.png
     :align: center
 
-..  note::
-    Make sure you're using the Tor Browser (Firefox/Aurora) for the following steps!
-
 Upload files to the secure upload site
 --------------------------------------
 
-Go to the Honest Appalachia upload page by copying the following in the address bar in the Tor browser: https://www.honestappalachia.org/upload/. Hit the Return key. This page will check that your traffic is being anonymized by Tor. If it is, you will be automatically redirected to our secure upload page; otherwise, you will get a warning page with a link to this documentation.
+Make sure you're using the Tor Browser (Firefox/Aurora) for the following steps!
+
+Go to the Honest Appalachia upload page by copying and pasting the following address into the address bar in the Tor browser: https://www.honestappalachia.org/upload/. Hit the Return key. This page will check that your traffic is being anonymized by Tor. If it is, you will be automatically redirected to our secure upload page; otherwise, you will get a warning page with a link to this documentation.
 
 The upload site is a simple form with two fields. Choose the file to upload with the first field. The second field is a text area, where you can optionally include comments about the file. Comments about where a file came from, what it refers to, or why it is important are all highly useful to us. 
 
@@ -112,23 +111,9 @@ When you're done, click the "Upload" button. The file and comment will be upload
 
 Once the file is successfully uploaded, you will receive a confirmation page stating "*filename* was successfully uploaded!" We recommend quitting the Tor Browser and exiting out of Vidalia at this point. If you want to continue using Tor, exit and re-open Vidalia so it negotiates a new connection. This protects you against a rare theoretical attack achieved by correlating your behavior on multiple websites. Here at Honest Appalachia we are firm believers in better safe than sorry!
 
-Cleanup
--------
+Additional steps to protect yourself
+------------------------------------
 
 After you've successfully uploaded your files to our secure server, you're almost done! We will receive your files, remove any metadata we find, and share them with journalists and/or the public.
 
-Your last step should be to cover your tracks. At this point, the worst thing that could happen is the police using a search warrant to seize your computer equipment. Finding confidential files that you may or may not have official access to, especially if those files were just leaked by a website, would be suspicious. Software like Tor, although legal, might also be considered suspicious.
-
-Securely Delete Files from Hard Disks
-+++++++++++++++++++++++++++++++++++++
-
-If you stored your files on an erasable medium, like a hard drive or a flash drive, you will not be safe if you just drag those files to the Trash/Recycle Bin and empty it, or just rm them on a Linux system. That's because on most modern computer systems, when you "delete" a file, you really haven't. Instead, the operating system makes the file invisible and marks the part of the drive it is stored on as "empty", meaning other files can now be written over it. This design is what allows people to recover accidentally deleted files - but computer forensics teams working for law enforcement can use these same techniques to work against you, recovering files that may then be used as evidence.
-
-Your best bet is to **securely delete** these files.
-
-On a Mac, 
-
-Destroy CD-ROMS
-+++++++++++++++
-
-If the media you copied files with is *not* erasable - for example, a CD-ROM - you will need to physically destroy it. The best way to destroy CD-ROMs is with a paper shredder. You can purchase an inexpensive paper shredder that will very capably destroy CD-ROMs. Never just toss a CD-ROM out in the garbage unless you're absolutely sure there's nothing sensitive on it.
+There are some additional steps you can take to protect further protect yourself. If you wish to delete the documents you uploaded, or the Tor software that you downloaded as part of this guide, we encourage you to do so securely. You can learn more about secure deletion on `this page from the EFF's Security Self-Defense Project <https://ssd.eff.org/tech/deletion>`_.
