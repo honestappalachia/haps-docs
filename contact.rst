@@ -14,7 +14,7 @@ honestappalachia@gmail.com.
 
 For sensitive inquiries, including potential whistleblowers concerned with
 protecting their identities, use honestappalachia@riseup.net. We *highly recommend*
-using GPG encryption to send us email securely. `Download our public key </honestappalachia@riseup.net(0xDC3784C2).pub.asc>`_.
+using GPG encryption to send us email securely. `Download our public key </downloads/honestappalachia@riseup.net(0xDC3784C2).pub.asc>`_.
 
 If you want to write to us securely, but don't know what GPG is, visit our :ref:`secure-email` page.
 
