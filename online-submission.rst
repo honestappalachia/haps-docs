@@ -6,6 +6,9 @@ Online Submission Guide
 
 Are you a whistleblower interested in submitting documents to Honest Appalachia? This document will guide you through submitting a file to our secure upload site.
 
+..  warning::
+    Honest Appalachia's mission is to protect the identity of whistleblowers who use our site to share documents of interest to the public. Choosing to become a whistleblower can be a risky decision. We do not guarantee your identity will be protected.
+
 You will need:
 
 1.  A file or files to share with us
