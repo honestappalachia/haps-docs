@@ -10,7 +10,7 @@ Welcome to Honest Appalachia's documentation!
 Honest Appalachia is a secure website designed to help whistleblowers safely share corporate and government documents with journalists and the public.
 
 ..  warning::
-    Honest Appalachia's mission is to protect the identity of whistleblowers who use our site to share documents of interest to the public. Choosing to become a whistleblower can be a risky decision. We do not guarantee your identity will be protected.
+    Being a whistleblower can be risky. Although it is impossible to guarantee that your identity will be protected, we do everything in our power to protect our sources.
 
 Quick Links
 -----------
