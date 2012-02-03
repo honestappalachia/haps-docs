@@ -53,7 +53,7 @@ Email providers like Riseup take a `number of steps <https://help.riseup.net/en/
 *   Encrypts email traffic with StartTLS.
 *   Encrypts your stored email on their servers.
 *   If they offer a webmail client that you can access in your browser, secures the connection over HTTPS.
-*   Doesn't use identifying e-mail headers that disclose your IP address to recipients. Examples of these headers are: X-Originating-IP and Received.
+*   Doesn't use identifying e-mail headers that disclose your IP address to recipients.
 *   Performs minimal or no logging; avoids logging personally identifying information like your IP address.
 
 Once you've set up a new email account, you will need the email address and password for the next step.
