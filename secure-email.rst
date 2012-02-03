@@ -48,6 +48,8 @@ The best choice is getting a new email account from a service that is designed w
 
 In the US, we've had great results using the email provided by `Riseup <https://riseup.net/>`_. They're a Seattle-based collective providing digital resources for activists. Their services are free to use, but consider donating if you find them useful.
 
+Another option that has been recommended to us is `TorMail <http://www.tormail.net/>`_. Their mail servers are only accessible as a Tor Hidden Service, similar to our upload site, in order to provide the maximum possible anonymity. You will need to use Tor to sign up `here <http://jhiwjjlqpyawmpjx.onion/>`_.
+
 Email providers like Riseup take a `number of steps <https://help.riseup.net/en/email#what-is-special-about-riseup-net-email>`_ to protect your privacy. If you're interested in exploring alternatives, here's a checklist of things to look for in an email provider:
 
 *   Encrypts email traffic with StartTLS.
@@ -117,8 +119,7 @@ Choose a strong passphrase and type it in twice. Remember that GPG key passphras
 
 Leave the defaults where they are, and click "Generate key". Now you will have to wait for the system to generate your keypair. As the note states, this may take several minutes. You can speed up the process by actively using your computer during the key generation process. This replenishes the entropy used by your computer to generate random numbers.
 
-Once the key is generated, you're ready to send an encrypted email. First, here's a quick primer on public key cryptography so you understand the basics of what you're doing.
-
+Once the key is generated, you're ready to send encrypted email. You can see the key in the list that comes up when you choose OpenPGP > Key Management, and you can right-click on the key to perform various common actions.
 
 Use POP
 -------
