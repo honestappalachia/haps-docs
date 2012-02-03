@@ -6,6 +6,13 @@ Secure Email
 
 Do you want to communicate with us securely? We encourage you to follow these best practices for communicating securely by email.
 
+The recommendations on this page are meant for two groups of people:
+
+1.  Whistleblowers who wish to contact the Honest Appalachia team safely and securely
+2.  Activists who want to learn more about using email safely
+
+Our recommendations can be summarized in 3 parts:
+
 1.  Use a separate, dedicated e-mail account for activist work
 2.  Encrypt your email
 3.  Don't store email on your email provider's servers 
