@@ -10,6 +10,30 @@ Do you want to communicate with us securely? We encourage you to follow these be
 2.  Encrypt your email
 3.  Don't store email on your email provider's servers 
 
+If you've never encrypted your email before, and have no idea what GPG is, you should read the following primer first:
+
+Public Key Cryptography Basics
+------------------------
+
+In order to encrypt your email, you need to generate a GPG keypair. There are detailed instructions for how to do this below, but here we want to explain exactly what this means.
+
+As the name "keypair" implies, there are actually two keys that are related to each other: your public key and your private key. Together, they perform encryption using clever mathematics so that a message encrypted with one key requires the other, complementary key for decryption.
+
+The public key is meant to be, well, public: you can share it with your friends, email it to people, or upload it to a public keyserver. If someone wants to send you an encrypted message, they will use your public key to encrypt the message. Then only your private key will be able to decrypt it. Unlike the public key, your private key should be carefully protected and never shared with anyone.
+
+Taken together, this encryption system is called *public-key cryptography*, or *asymmetric cryptography*.
+
+Limitations of encrypted communications
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Imagine that you have access to the email inbox of a tech-savvy individual who has used GPG to encrypt all of their email. You can't read any of their messages, but what else can you learn?
+
+Encrypted communications do not protect against the analysis of relational communication. Looking at the hypothetical inbox, you can see how often/when Alice communicates with Bob, but not what they are saying. If Alice and Bob's true identities are known, this can still be very useful information.
+
+Also, it is important to note that only the body of an email message is encrypted. The headers, *which include the subject line*, are not. You should avoid revealing information about the contents of an encrypted email in its subject line. Also, if your email provider uses headers that record your IP address, that will be accessible as well. Sensible email providers, like Riseup, avoid putting such identifying information in headers. 
+
+A weak point in the design of public-key cryptography is key verification. Let's say you lookup your friend's public key on their website, or download it from a public keyserver. How do you know it's *really* their key? How can you trust it? To do so, you need to verify something about the key that only it's owner would know, with the owner themselves. You should do this in person, or over the phone if you recognize their voice, to make sure they are indeed the person you intend to communicate with. We will discuss how to do this in practice later.
+
 Get a separate e-mail account
 -----------------------------
 
@@ -88,17 +112,6 @@ Leave the defaults where they are, and click "Generate key". Now you will have t
 
 Once the key is generated, you're ready to send an encrypted email. First, here's a quick primer on public key cryptography so you understand the basics of what you're doing.
 
-Public Key Crypto Basics
-------------------------
-
-You just generated a GPG keypair. As the name implies, there are actually two keys that are related to each other: your public key and your private key. 
-
-Limitations of encrypted communications
-~~~~~~~
-
-Relational communication: can see how often/when Alice communicates with Bob, but not what they are saying. Also note that **the subject line of email is not encrypted**.
-
-Should verify keys to avoid trust attacks.
 
 Use POP
 -------
