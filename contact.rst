@@ -20,11 +20,9 @@ If you want to write to us securely, but don't know what GPG is, learn how on ou
 P.O. Box
 --------
 
-**Charleston, WV:**
-
 | Honest Appalachia
-| P.O. Box 11776
-| Charleston, WV 25339
+| PO Box 717
+| MacArthur, WV 25873
 
 Coming Soon
 -----------

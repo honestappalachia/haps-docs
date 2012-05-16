@@ -40,8 +40,6 @@ If you suspect you are under physical surveillance, discreetly give the letter t
 P.O. Box Addresses
 ------------------
 
-**Charleston, WV:**
-
 | Honest Appalachia
-| P.O. Box 11776
-| Charleston, WV 25339
+| PO Box 717
+| MacArthur, WV 25873
